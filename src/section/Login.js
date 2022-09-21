@@ -1,7 +1,6 @@
 import React,{useState} from "react"
 import "../styles/login.css"
 import {Link} from "react-router-dom"
-import Home from "../pages/Home";
 import {database} from '../firebase'
 import {useNavigate} from "react-router-dom"
 
