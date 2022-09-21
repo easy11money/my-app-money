@@ -4,7 +4,6 @@ import {Link} from "react-router-dom"
 import Home from "../pages/Home";
 import {database} from '../firebase'
 import {useNavigate} from "react-router-dom"
-import {useHistory} from "use-history"
 
 
 
@@ -47,8 +46,7 @@ function Submit(e){
      .add({
             datauser:user,
             // number:number  
-       
-     })
+      })
 
      .then(()=>{
       alert("Login Successfully")
