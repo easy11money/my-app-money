@@ -41,9 +41,9 @@ function Sunday(){
                 </div>
                 <div className="contest-prize">
                     <p className="pool">{item.totalprice}</p>
-                    {/* <div> <a  href='https://pmny.in/gIukSmMYIZH8' >₹12 Pay</a> </div> */}
-
-                    <Link to="/home" className="pay">{item.pay}</Link>
+                    {/*  <div> <a  href='https://pmny.in/gIukSmMYIZH8' >₹12 Pay</a> </div> */}
+                    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KKK5TsEqQsWAUK" async>pay</script>pay</form>
+                    {/* <Link to="/home" className="pay">{item.pay}</Link> */}
                 </div>
                 <progress className="player-progress" value={item.value} max={100}></progress>
                 <div className="players">
@@ -67,6 +67,18 @@ function Sunday(){
             </Link>
             ))}
             </div>
+
+            <form><a href="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KKK5TsEqQsWAUK" async>pay</a>pay</form>
+         
+
+
+
+
+
+            <h1 src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KKK5TsEqQsWAUK" async>pay</h1>
+           
+          {/* <script><a href="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KKK5TsEqQsWAUK" async>Pay</a></script> */}
+
             {/* <div> <a  href='https://pmny.in/gIukSmMYIZH8' >₹12Pay</a> </div> */}
 
          </div>
