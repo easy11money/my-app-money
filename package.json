@@ -4,10 +4,9 @@
    "version": "0.1.0",
    "private": true,
    "dependencies": {
-      "@emotion/react": "^11.10.0",
+      "@emotion/react": "^11.10.4",
       "@emotion/styled": "^11.10.0",
       "@material-ui/core": "^4.12.4",
-      "@mui/icons-material": "^5.8.4",
       "@mui/material": "^5.10.1",
       "@testing-library/jest-dom": "^5.16.4",
       "@testing-library/react": "^13.3.0",
@@ -23,7 +22,6 @@
       "use-history": "^1.4.1",
       "web-vitals": "^2.1.4"
    },
- 
    "scripts": {
       "start": "react-scripts start",
       "predeploy": "npm run build",
@@ -56,6 +54,6 @@
    "engines": {
       "node": "v17.8.0",
       "npm": "8.19.2"
-    },
+   },
    "build": "webpack --config prod.config.js"
 }

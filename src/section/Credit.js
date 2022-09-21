@@ -52,7 +52,7 @@ function Withdraw({deposit}){
 
 
   
-    return(
+     return(
       <div>
       <div className="deposit">
       <div className="withdrawform">
