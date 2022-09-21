@@ -3,6 +3,11 @@
    "name": "my-app",
    "version": "0.1.0",
    "private": true,
+   "engines": {
+      "node": "v17.8.0",
+      "npm": "8.19.2"
+    },
+  
    "dependencies": {
       "@emotion/react": "^11.10.0",
       "@emotion/styled": "^11.10.0",
@@ -23,6 +28,7 @@
       "use-history": "^1.4.1",
       "web-vitals": "^2.1.4"
    },
+ 
    "scripts": {
       "start": "react-scripts start",
       "predeploy": "npm run build",
