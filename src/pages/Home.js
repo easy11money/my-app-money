@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Menu from "../section/Menu";
 import Homerend from "../section/Homecomp";
 import Section from "../section/Header";
-import Alert from "@mui/material/Alert"
 
 import {Link} from "react-router-dom"
 function Footer(){
