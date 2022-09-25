@@ -19,7 +19,7 @@ function Footer(){
               <div className="trophy">
             
               <h3 className="top-title">easy11money</h3>
-              {/* <i className="bi-trophy-fill" style={{color:"white",fontSize:"20px",paddingBottom:"5px"}}/> */}
+              <i className="bi-trophy-fill" style={{color:"white",fontSize:"20px",paddingBottom:"5px"}}/>
 
 
               </div>
