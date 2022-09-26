@@ -20,7 +20,7 @@ function Main(){
         <div>
             <BrowserRouter>
              <Routes>
-                 <Route path="/game-develope-app" element={<Login/>}/>
+                 <Route path="/money11" element={<Login/>}/>
                  <Route path="/Home" element={<Home/>}/>
                  <Route path="/Sunday" element={<Sunday />}/>
                  <Route path="/Monday" element={<Monday/>}/>
