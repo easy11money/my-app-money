@@ -1,6 +1,5 @@
 import React,{useState} from "react"
 import "../styles/login.css"
-import {Link} from "react-router-dom"
 import {database} from '../firebase'
 import {useNavigate} from "react-router-dom"
 
@@ -27,7 +26,7 @@ function handleChange(e){
 
 React.useEffect(() =>{
    if(localStorage.getItem("Auth"))  history("/home")
-},[])
+})
 
 function Submit(e){
     e.preventDefault();

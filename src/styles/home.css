@@ -8,35 +8,39 @@
     font-weight: 100;
     font-size: 16px;
 } */
-.top{
+.top {
     margin-top: 130px;
     background: whitesmoke;
     padding-bottom: 20px;
 
 
 }
-.top-title{
+
+.top-title {
     font-size: 17px;
 }
-.home-title{
-    padding: 30px 0px 10px 20px;
-    font-size: 19px;
-    font-weight:700;
-    
-    
+
+.home-title {
+    padding: 20px 0px 5px 20px;
+    font-size: 18px;
+    font-weight: 900;
+
+
 }
-.match{
+
+.match {
     margin-top: 200px;
 }
 
-.change{
+.change {
     text-decoration: none;
     color: #101111;
-    margin:0px 50px 70px 50px;
-    
+    margin: 0px 50px 70px 50px;
+
 
 }
-   /* "homepage": "http://thirupathi124.github.io/game-develope-app", */
+
+/* "homepage": "http://thirupathi124.github.io/game-develope-app", */
 
 
 .card-one {
@@ -44,91 +48,102 @@
     padding: 10px;
     width: 300px;
     background: white;
-    box-shadow:0px 0px 9px #c7bbbb;
+    box-shadow: 0px 0px 9px #c7bbbb;
     margin: 10px 20px 0px 20px;
 }
-.slide-two{
-    background: linear-gradient(to left,darkgray,lightblue);
+
+.slide-two {
+    background: linear-gradient(to left, darkgray, lightblue);
     height: 60px;
     margin: 10px;
     border-radius: 10px;
 
 }
-.slide-one{
-    background: linear-gradient(to right,rgb(243, 231, 231),rgb(221, 206, 206));
+
+.slide-one {
+    background: linear-gradient(to right, rgb(63, 21, 21), rgb(221, 206, 206));
     height: 60px;
     margin: 10px;
     border-radius: 10px;
-    color:red;
-    letter-spacing: 3px;
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: 900;
-    padding: 20px;
-
 }
-.slide-three{
+
+.slide-css {
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 10px 0px 0px 12px;
+}
+
+.slide-three {
     margin: 10px;
     border-radius: 10px;
     height: 60px;
     box-shadow: 0px 0px 9px #c7bbbb;
-    background: linear-gradient(to right,rgb(157, 128, 223),rgb(52, 206, 233));
+    background: linear-gradient(to right, rgb(157, 128, 223), rgb(52, 206, 233));
 }
+
 .one-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
     border-bottom: 1px solid;
     border-color: rgb(231 231 231);
     padding-bottom: 8px;
 }
-.price{
-color: black;
-font-weight: bold;
+
+.price {
+    color: black;
+    font-weight: bold;
 }
-.date{
-   padding-left: 10px;
-   
+
+.date {
+    padding-left: 10px;
+
 }
-.carousel-status{
+
+.carousel-status {
     display: none;
 }
+
 .center-cont {
     padding: 25px 0px 25px 20px;
-   font-family: "Oswald";
+    font-family: "Oswald";
     font-size: 15px;
-    
+
     font-weight: 600;
-   
+
     text-transform: uppercase;
- 
+
 }
-.starting{
+
+.starting {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.red{
+.red {
     color: red;
-    font-weight:900;
-    font-family:ui-monospace;
+    font-weight: 900;
+    font-family: ui-monospace;
 }
+
 .one-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0;
- 
-  
+
+
 }
+
 .left {
     display: flex;
     gap: 20px;
 }
-.mega{
+
+.mega {
     border: none;
     outline: none;
     background: green;
@@ -137,279 +152,74 @@ font-weight: bold;
     cursor: pointer;
     color: white;
     font-size: 9px;
-    
+
 }
-.flexs{
+
+.flexs {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 40px;
-  
+
 }
-.second-color{
+
+.second-color {
     width: 100%;
     height: 80px;
     margin-top: 54px;
     position: fixed;
     top: 0;
-    background:whitesmoke;
-    box-shadow: 0px 0px 6px rgb(95, 84, 84);
- 
+    background: whitesmoke;
+    box-shadow: 0px 0px 6px rgb(90, 84, 84);
+
 }
-.control-arrow , .control-prev{
+
+.control-arrow,
+.control-prev {
     display: none;
 }
-.des{
+
+.des {
     background: #009d4d;
     height: 100px;
     width: 100%;
     margin-top: 133px;
 }
-.icons-mark{
+
+.icons-mark {
 
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.alarm{
+
+.alarm {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-@media screen and (max-width:800px){
-   
-    .card-one{
+@media screen and (max-width:800px) {
+
+    .card-one {
         margin-bottom: 30px;
     }
-    .flex{
+
+    .flex {
         padding-bottom: 20px;
     }
-    .change{
+
+    .change {
         margin: 0;
     }
-    .date,.time,.price,.grand,.red{
+
+    .date,
+    .time,
+    .price,
+    .grand,
+    .red {
 
         font-size: 14px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

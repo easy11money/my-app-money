@@ -1,9 +1,11 @@
 .terms{
-    margin: 10px;
     text-align: start;
 }
 .gaps{
     padding: 20px 20px 20px 10px;
+    text-align: justify;
+    margin-bottom: 60px;
+    font-size: 14px;
 }
 .regi{
     box-shadow: 0px 0px 9px rgb(148, 141, 141) ;
@@ -12,6 +14,7 @@
 .draw{
     padding: 20px;
     color: whitesmoke;
+    text-align: center;
     background: linear-gradient(to right,rgb(96, 96, 247),rgb(25, 25, 87));
 }
 .stepone{
@@ -32,11 +35,11 @@
     padding: 10px 5px 10px 10px;
     font-weight: 900;
     font-size: 16px;
-   justify-content: center;
+    justify-content: center;
 
 }
 .colr{
-    color:#2f4e93;
+    color:red;
     
 }
 .fant{
@@ -53,9 +56,7 @@
 }
 .step{
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    /* border: 1px solid black; */
     padding: 20px 0px 0px 10px;
 }
 .setpimg{
@@ -67,11 +68,38 @@
 .choo{
     padding: 10px 0px 10px 20px;
     letter-spacing: 1px;
-    color:gray;
     font-size: 14px;
 }
 .gauid{
-    background: whitesmoke;
     border-radius:20px;
-    margin: 50px 10px 30px 10px;
+    margin: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 7px rgb(205 201 201);
+
+}
+.bord-style{
+    margin-left: 31px;
+    border-right: 2px solid darkgreen;
+    width: 23px;
+    height: 70px;
+}
+.how-play{
+    margin: 40px 0px 40px 0px;
+}
+.conditions{
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    box-shadow: 0px 0px 7px gray;
+    background: white;
+}
+.video{
+    margin: 80px 0px 0px 0px;
+    width: 100%;
+}
+.video-play{
+    text-align: center;
+    padding-top:40px;
 }

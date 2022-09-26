@@ -3,77 +3,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
-.contest{
+.contest {
     background: black;
     color: white;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
-.contests{
+
+.contests {
     display: flex;
     align-items: center;
-    padding:10px;
+    padding: 10px;
     gap: 24px;
 }
-.start{
+
+.start {
     padding: 10px 10px 10px 60px;
     color: white;
     font-size: 16px;
     font-family: sans-serif;
 }
-.sunday-gap{
+
+.sunday-gap {
     padding-right: 5px;
 }
-.party{
+
+.party {
     font-family: sans-serif;
     font-size: 16px;
     text-transform: lowercase;
 }
-.sun-contest{
+
+.sun-contest {
     /* background: whitesmoke; */
     /* box-shadow: 0px 0px 8px black; */
     padding: 15px 0px 0px 10px;
     font-size: 20px;
     font-weight: 500;
 }
-.pool{
+
+.pool {
     font-size: 15px;
     font-weight: 700;
 }
-.only{
-    background: linear-gradient(to left, whitesmoke,white);
-    box-shadow:0px 0px 9px #c7bbbb;
-    background: linear-gradient(to right,whitesmoke,rgb(192, 185, 185));
+
+.only {
+    background: linear-gradient(to left, whitesmoke, white);
+    box-shadow: 0px 0px 9px #c7bbbb;
+    background: linear-gradient(to right, whitesmoke, rgb(192, 185, 185));
     padding: 10px;
     color: black;
     font-size: 12px;
 }
-.contest-des{
+
+.contest-des {
     box-shadow: 0px 0px 9px #c7bbbb;
     padding: 10px 20px 10px 20px;
     margin: 15px 10px 15px 10px;
     border-radius: 5px;
 }
-.contest-card{
-text-decoration: none;
-color: black;
+
+.contest-card {
+    text-decoration: none;
+    color: black;
 }
-.contest-top{
+
+.contest-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
 }
-.contest-prize{
+
+.contest-prize {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
 }
-.live{
+
+.live {
     color: red;
     position: relative;
 }
-.pay{
+
+.pay {
     border: none;
     outline: none;
     background: green;
@@ -84,7 +97,8 @@ color: black;
     font-size: 13px;
     text-decoration: none;
 }
-.pay-len{
+
+.pay-len {
     border: none;
     outline: none;
     background: green;
@@ -98,49 +112,58 @@ color: black;
     display: block;
     text-align: center;
 }
-progress{
-    width:100%;
+
+progress {
+    width: 100%;
     background: grey;
     height: 5px;
 }
-progress::-webkit-progress-value{
-    background:linear-gradient(to right,orange,rgb(240, 36, 36));
+
+progress::-webkit-progress-value {
+    background: linear-gradient(to right, orange, rgb(240, 36, 36));
     border-radius: 10px;
 
-    
-    
+
+
 }
-.players{
+
+.players {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
     padding-top: 5px;
 }
-.total-player{
+
+.total-player {
     color: red;
 }
-.contest-bottom{
-   padding: 15px 0px 0px  0px;
+
+.contest-bottom {
+    padding: 15px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
 }
-.first-price{
+
+.first-price {
     display: flex;
     gap: 20px;
     align-items: center;
 
 }
-.back-arrow{
+
+.back-arrow {
     color: white;
 }
-.mark{
+
+.mark {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.search-icon{
+
+.search-icon {
     display: flex;
     align-items: center;
     padding: 5px 15px 5px 15px;
@@ -149,59 +172,70 @@ progress::-webkit-progress-value{
     margin: 10px;
     box-shadow: 0px 0px 9px rgb(214 214 214);
 }
-.search{
+
+.search {
     border: none;
     outline: none;
     width: 270px;
     background: white;
     padding-left: 20px;
     font-size: 14px;
-    color:black;
-    
+    color: black;
+
 
 
 
 }
-.player{
+
+.player {
     padding-top: 20px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 
 }
-.bg{
+
+.bg {
     background: #f9f9f9;
     padding: 7px 10px 7px 10px;
     border-bottom: 0.5px solid #f9f9f9;
     border-top: 0.5px solid #f9f9f9;
     margin-top: 20px;
 }
-.margin{
+
+.margin {
     margin: 10px;
 }
-.sunprice{
+
+.sunprice {
     font-weight: 700;
 }
-.tabs{
+
+.tabs {
     margin-top: 20px;
 }
-.wal{
+
+.wal {
     text-align: center;
     color: gray;
 }
-.wa{
+
+.wa {
     text-align: center;
     padding: 20px 0px 0px 20px;
     color: gray;
 }
-.wait-ogo{
+
+.wait-ogo {
     margin-bottom: 200px;
 }
-.wait-pic{
- margin: 0 auto;
- justify-content: center;
- display: flex;
+
+.wait-pic {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
 }
-.pool-pay{
+
+.pool-pay {
     margin: 10px auto;
     display: block;
     background: green;
@@ -211,4 +245,8 @@ progress::-webkit-progress-value{
     border-radius: 10px;
     color: white;
     cursor: pointer;
+}
+.percen-flex{
+    display: flex;
+    gap: 5px;
 }

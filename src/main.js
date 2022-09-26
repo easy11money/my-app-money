@@ -11,8 +11,8 @@ import Saterday from "./pages/Saterday"
 import Leader from "./Leaderboard/LaderBoard";
 import Login  from "./section/Login"
 import Term from "./menupage/Terms"
-import Amount from "./menupage/withdraw";
 import Play from "./menupage/Howplay"
+import Amount from "./menupage/withdraw"
 
 function Main(){
 
@@ -31,8 +31,8 @@ function Main(){
                  <Route path="/Saterday" element ={<Saterday/>}/>
                  <Route path="/Leader" element={<Leader/>}/>
                  <Route path="/Terms" element={<Term/>}/>
-                 <Route path="/Amount" element={<Amount/>}/>
                  <Route path="/Play" element={<Play/>}/>
+                 <Route path="/Amount" element={<Amount/>}/>
              </Routes>
              </BrowserRouter>
         </div>

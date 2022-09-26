@@ -5,8 +5,10 @@ import {useNavigate,Link} from "react-router-dom"
 
 
 function Menu({setMenu}){
+  const [logouts,setLogout] = React.useState(false)
+
+
   const history = useNavigate()
-  const [out,setLogout] = React.useState(false)
  function handleLogout(){
  
     if(localStorage.removeItem("Auth"))
@@ -14,10 +16,8 @@ function Menu({setMenu}){
  }
 
  React.useEffect(() =>{
-  
   if(!localStorage.getItem("Auth")) history("/game-develope-app")
-
-}, [out]);
+},[logouts,history]);
 
 
 return(
