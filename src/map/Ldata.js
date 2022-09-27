@@ -27,13 +27,15 @@ const leaddata = [
         id:"4",
         name:"mani",
         won:"",
-        rank:"-"
+        rank:"-",
+        send:""
     },
     {
         id:"5",
         name:"palani",
         won:"",
-        rank:"-"
+        rank:"-",
+        send:""
     },
 
    

@@ -77,13 +77,18 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
     box-shadow: 0px 0px 9px rgb(94, 88, 88);
 }
 .home{
     font-size:14px;
     text-decoration: none;
     font-weight: 500;
+    color: black;
+    font-weight: bold;
+}
+.home:hover{
+    color: gray;
 }
 .home:hover{
     color: gray;

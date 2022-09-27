@@ -2,14 +2,14 @@ const tournamentData = [
   {
     date: "00-00-0000",
     name: "Sunday Party",
-    upcome: "Completed",
+    upcome: "Comp",
     price: "₹2 Lakhs",
     time: "0am to 0pm",
-    link: "/sunday",
+    link: "",
     // link :"/sunday",
-    // alert:function(){
-    //   return alert("Soon Update.... Join Our Telegram ")
-    // }    
+    alert:function(){
+      return alert("Soon Update.... Join Our Telegram ")
+    }    
 
   },
 
@@ -19,12 +19,12 @@ const tournamentData = [
     upcome: "Upcomeing",
     price: "₹2 Lakhs",
     time: "0am to 0am",
-    link: "",
+    link: "/monday",
     // link :"/monday",
 
-    alert: function () {
-      return alert("Soon Update.... Join Our Telegram ")
-    }
+    // alert: function () {
+    //   return alert("Soon Update.... Join Our Telegram ")
+    // }
   },
   {
     date: "00-00-000",
@@ -119,7 +119,7 @@ const sunday = [
     value: 60,
     firstprice: "(1st) 1 lakhs",
     percentage: "99%",
-    live: "Review"
+    live: "Completed"
 
   },
 

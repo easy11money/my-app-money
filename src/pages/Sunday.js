@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Winner.css";
 import { registration, sunday } from "../map/Homemap";
 import { Link } from "react-router-dom";
+import Section from "../section/Header";
+
 
 function Sunday() {
     return (
@@ -62,9 +64,9 @@ function Sunday() {
                             </div>
                         </div>
                     </Link>
-                ))}
+             ))}
             </div>
-
+         <Section/>
 
         </div>
 
