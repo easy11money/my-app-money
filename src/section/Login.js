@@ -2,11 +2,9 @@ import React, { useState } from "react"
 import "../styles/login.css"
 import { database } from '../firebase'
 import { useNavigate } from "react-router-dom"
-// import {useToasts} from "react-toast-notifications"
 
 
 function Login() {
-  // const addToast = useToasts();
   const history = useNavigate();
   const [data, setData] = useState([])
   const [user, setUser] = useState({
@@ -42,11 +40,10 @@ function Login() {
     database.collection('userdata')
       .add({
         datauser: user,
-        // number:number  
       })
 
       .then(() => {
-       alert("lOgin full6")
+       alert("login fully")
       })
       .catch((error) => {
         alert(error.message)
@@ -54,7 +51,6 @@ function Login() {
 
     history("/home")
     localStorage.setItem("Auth", true)
-
   }
 return (
     <div onSubmit={Submit} className="login">

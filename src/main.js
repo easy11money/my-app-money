@@ -13,7 +13,6 @@ import Login  from "./section/Login"
 import Term from "./menupage/Terms"
 import Play from "./menupage/Howplay"
 import Amount from "./menupage/withdraw"
-import {ToastProvider} from "react-toast-notifications"
 
 function Main(){
 
