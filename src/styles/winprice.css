@@ -1,6 +1,7 @@
 table{
     margin-bottom: 100px;
     border-collapse: collapse;
+    width:100%;
 }
 th,td{
     border-bottom:1px solid rgb(197, 191, 191);
@@ -8,12 +9,10 @@ th,td{
     font-weight: 500;
     font-size: 14px;
     padding: 10px 10px 10px 10px;
-    width: 100%;
     border-collapse: collapse;
+    width: 100%;
 }
-.rank{
-    padding-right: 240px;
-}
+
 .css-19kzrtu{
     padding: 0!important
 }
@@ -89,7 +88,13 @@ th,td{
     border-bottom: 2px solid gray;
     outline: none;
 }
-
+.rank{
+  padding-right: 100px;
+}
+.ranks{
+  padding-right: 230px;
+  
+}
 
 
 

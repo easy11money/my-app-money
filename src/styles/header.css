@@ -90,9 +90,7 @@
 .home:hover{
     color: gray;
 }
-.home:hover{
-    color: gray;
-}
+
 .fit{
     display: grid;
     text-align: center;

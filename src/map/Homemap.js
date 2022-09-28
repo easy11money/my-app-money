@@ -2,8 +2,8 @@ const tournamentData = [
   {
     date: "00-00-0000",
     name: "Sunday Party",
-    upcome: "Comp",
-    price: "₹2 Lakhs",
+    upcome: "Upcomeing",
+    price: "₹0 Lakhs",
     time: "0am to 0pm",
     link: "",
     // link :"/sunday",
@@ -15,9 +15,9 @@ const tournamentData = [
 
   {
     date: "00-00-000",
-    name: "Moday Special",
+    name: "Monday Special",
     upcome: "Upcomeing",
-    price: "₹2 Lakhs",
+    price: "₹0 Lakhs",
     time: "0am to 0am",
     link: "/monday",
     // link :"/monday",
@@ -27,9 +27,9 @@ const tournamentData = [
     // }
   },
   {
-    date: "00-00-000",
-    name: "Thousday Star",
-    price: "₹10000",
+    date: "00-00-0000",
+    name: "Tuesday Star",
+    price: "₹0",
     time: "0am to 0am",
     upcome: "Upcomeing",
     link: "",
@@ -40,9 +40,9 @@ const tournamentData = [
   },
 
   {
-    date: "00-00-000",
-    name: "Wenesday",
-    price: "₹2 Lakhs",
+    date: "00-00-0000",
+    name: "Wednesday",
+    price: "₹0 Lakhs",
     time: "0am to 0pm",
     upcome: "Upcomeing",
     link: "",
@@ -53,9 +53,9 @@ const tournamentData = [
 
   },
   {
-    date: "00-00-000",
-    name: "Thusday Masla",
-    price: "₹2 Lakhs",
+    date: "00-00-0000",
+    name: "Thursday Masla",
+    price: "₹0 Lakhs",
     time: "0am to 0am",
     upcome: "Upcomeing",
     link: "",
@@ -66,9 +66,9 @@ const tournamentData = [
 
   },
   {
-    date: "12/08-2022",
+    date: "00/00/0000",
     name: "Freedom friday",
-    price: "₹2 Lakhs",
+    price: "₹0 Lakhs",
     time: "0am to 0am",
     upcome: "Upcomeing",
 
@@ -81,8 +81,8 @@ const tournamentData = [
   },
   {
     date: "00-00-0000",
-    name: "Saterday San",
-    price: "₹2 Lakhs",
+    name: "Saturday",
+    price: "₹0 Lakhs",
     time: " 0am to 0am",
     upcome: "Upcomeing",
     link: "",
@@ -100,8 +100,8 @@ const tournamentData = [
 const registration = [
   {
     tourname: "sunday party",
-    starttime: "12 pm to 3 pm",
-    price: "₹5"
+    starttime: "0 pm to 0 pm",
+    price: "₹0"
   }
 ]
 
@@ -112,14 +112,14 @@ const registration = [
 
 const sunday = [
   {
-    totalprice: "₹5 Lakhs",
-    pay: "₹10",
+    totalprice: "₹0Lakhs",
+    pay: "₹0",
     spots: "0 spots left",
-    left: "50,000 spots",
-    value: 60,
-    firstprice: "(1st) 1 lakhs",
-    percentage: "99%",
-    live: "Completed"
+    left: "0 spots",
+    value: 0,
+    firstprice: "(1st) 0lakhs",
+    percentage: "0%",
+    live: "Upcomeing"
 
   },
 

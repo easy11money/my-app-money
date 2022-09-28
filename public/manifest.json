@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Easy 11 Money",
+  "short_name": "Easy11",
+  "name": "Easy11Money",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background": "#ffffff"
 }

@@ -13,6 +13,7 @@ import Login  from "./section/Login"
 import Term from "./menupage/Terms"
 import Play from "./menupage/Howplay"
 import Amount from "./menupage/withdraw"
+import Winer from "./pages/Winner";
 
 function Main(){
 
@@ -20,9 +21,7 @@ function Main(){
         <div>
             <BrowserRouter>
              <Routes>
-              
                  <Route path="/" element={<Login/>}/>
-     
                  <Route path="/Home" element={<Home/>}/>
                  <Route path="/Sunday" element={<Sunday />}/>
                  <Route path="/Monday" element={<Monday/>}/>
@@ -35,6 +34,7 @@ function Main(){
                  <Route path="/Terms" element={<Term/>}/>
                  <Route path="/Play" element={<Play/>}/>
                  <Route path="/Amount" element={<Amount/>}/>
+                 <Route path="/Winner" element={<Winer/>}/>
                
              </Routes>
              </BrowserRouter>

@@ -2,25 +2,26 @@ const leaddata = [
     {
         id:"1",
         name:"vijay",
-        won:"₹500",
-        rank:"#1",
+        number:"912XXXX987",
+        rank:"-",
+        won:"",
         send:"withdraw"
         
     },
     {
         id:"2",
         name:"surya",
-        won:"₹100",
-        rank:"#2",
-        send:"withdtaw"
+        won:"",
+        rank:"-",
+        send:""
    
     },
     {
         id:"3",
         name:"rock",
-        won:"₹50",
-        rank:"#3",
-        send:"withdtaw"
+        won:"",
+        rank:"-",
+        send:""
 
     },
     {

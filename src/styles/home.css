@@ -68,29 +68,42 @@
 }
 
 .slide-css {
-    float: left;
+    float: right;
+    font-family: sans-serif;
     font-size: 16px;
     color: whitesmoke;
     padding: 10px 0px 0px 12px;
     position: relative;
     animation-name: example;
     animation-duration: 8s;
-    text-shadow:4px 4px #009d4d;
+    text-shadow:2px 2px #009d4d;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 @keyframes example {
     0%   {color:red; left:0px; top:0px;}
-    25%  {color:yellow; left:50px; top:0px;}
+    25%  {color:yellow; right:50px; top:0px;}
     50%   {color:green; left:0px; top:0px;}
     100%  {color:blue; right:10px; top:0px;}
 }
 .sha{
-    text-shadow:4px 4px red;
-    color: aqua;
+    text-shadow:2px 2px white;
+    color: #ffa200;
     text-align: center;
     padding-top: 10px;
-    text-transform: uppercase;
-
+    /* text-transform: uppercase; */
+}
+.sha-one{
+    text-shadow:2px 2px white;
+    color: orangered;
+    text-align: center;
+    padding-top: 10px;
+}
+.sha-two{
+    text-shadow:2px 2px white;
+    color:blueviolet;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .slide-three {

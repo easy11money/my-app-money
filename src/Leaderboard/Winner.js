@@ -8,7 +8,7 @@ export default function Winner(){
             <table>
                 <thead>
                 <tr>
-                    <th style={{opacity:"0.5"}} className="rank">Rank</th>
+                    <th style={{opacity:"0.5"}} className="ranks">Rank</th>
                     <th style={{opacity:"0.5"}}>Winnings</th>
                 </tr>
                 </thead>

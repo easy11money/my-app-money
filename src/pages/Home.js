@@ -34,24 +34,26 @@ function Footer() {
         <Carousel>
           <div className="slide-one">
             <h1 className="slide-css">win big party
-            <i style={{color:"white",fontSize:"25px"}} className="bi-lightning-charge"/>
+            <i style={{color:"white",fontSize:"20px"}} className="bi-lightning-charge"/>
+            <i style={{color:"orange",fontSize:"20px"}} className="bi-fire"/>
 
             </h1>
-            <h4 className="sha">Sunday Party</h4><br/>
+            
+            <h4 className="sha">___Sunday Party----</h4><br/>
           </div>
           <div className="slide-two">
-          <h1 className="slide-css">win big party
-            <i style={{color:"white",fontSize:"25px"}} className="bi-lightning-charge"/>
+          <h1 className="slide-css">big party
+            <i style={{color:"white",fontSize:"20px"}} className="bi-lightning-charge"/>
 
             </h1>
-            <h4 className="sha">Sunday Party</h4><br/>
+            <h4 className="sha-one">----Monday Special___</h4><br/>
           </div>
           <div className="slide-three">
-          <h1 className="slide-css">win big party
-            <i style={{color:"white",fontSize:"25px"}} className="bi-lightning-charge"/>
+          <h1 className="slide-css">Small Party
+            <i style={{color:"white",fontSize:"20px"}} className="bi-lightning-charge"/>
 
             </h1>
-            <h4 className="sha">Sunday Party</h4><br/>
+            <h4 className="sha-two">Friday freedom</h4><br/>
           </div>
         </Carousel>
       </div>

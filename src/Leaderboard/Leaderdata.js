@@ -25,7 +25,9 @@ export default function LeaderData(){
              <thead>
              <tr>
                  <th style={{opacity:"0.5"}} className="rank">Players</th>
+                 <th style={{opacity:"0.5"}}>Number</th>
                  <th style={{opacity:"0.5"}}>Rank</th>
+
              </tr>
              </thead>
              <tbody>
@@ -41,6 +43,7 @@ export default function LeaderData(){
                        <p onClick={() => setCredit(true)} className="withdarw">{item.send}</p>
 
                     </td>
+                    <td>{item.number}</td>
                      <td>{item.rank}</td>
                 </tr>
                 ))}
