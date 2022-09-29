@@ -1,6 +1,6 @@
 const tableone = [
     {
-        rank:" 1",
+        rank:"1",
         name:"monst",
         won:"won ₹1000"
         
@@ -22,19 +22,19 @@ const tableone = [
 const tabletwo = [
     {
         rank:"4",
-        name:"monst",
+        name:"deviya",
         won:"won ₹10000"
         
     },
     {
         rank:"5",
-        name:"ramer",
+        name:"priya",
         won:"won ₹5000"
 
     },
     {
         rank:"6",
-        name:"rock",
+        name:"monika",
         won:"won ₹1000"
 
     },

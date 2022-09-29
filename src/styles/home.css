@@ -70,7 +70,8 @@
 .slide-css {
     float: right;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 11px;
+    width: 170px;
     color: whitesmoke;
     padding: 10px 0px 0px 12px;
     position: relative;
@@ -88,7 +89,7 @@
 }
 .sha{
     text-shadow:2px 2px white;
-    color: #ffa200;
+    color: black;
     text-align: center;
     padding-top: 10px;
     /* text-transform: uppercase; */

@@ -14,10 +14,10 @@
 
 }
 .draw{
-    padding: 20px;
     color: whitesmoke;
     text-align: center;
-    background: linear-gradient(to right,rgb(96, 96, 247),rgb(25, 25, 87));
+    background: #2266ff;
+    padding: 10px;
 }
 .stepone{
     background-color: aquamarine;
@@ -34,7 +34,7 @@
 .plystart{
     display: flex;
     gap:10px;
-    padding: 10px 5px 10px 10px;
+    padding: 20px 5px 20px 10px;
     font-weight: 900;
     font-size: 16px;
     justify-content: center;

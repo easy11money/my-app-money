@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Menu from "../section/Menu";
 import Homerend from "../section/Homecomp";
 import Section from "../section/Header";
-
+import Logo from "../imges/lgo.jpg"
 function Footer() {
   const [menu, setMenu] = useState(false)
   return (
@@ -16,12 +16,12 @@ function Footer() {
           <div className="me">
             <i style={{ color: "white", fontSize: "30px" }} className="menu" class="bi-list" onClick={() => setMenu(true)} alt="menu" />
             <div className="trophy">
-
+              <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
               <h3 className="top-title">easy11money</h3>
             </div>
             <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
               <div className="jointeam">
-                <i style={{ color: "#2f4e93", fontSize: "13px" }} class="bi-telegram" />
+                <i style={{ color: "#2266ff", fontSize: "13px" }} class="bi-telegram" />
                 <button className="team">Join</button>
               </div>
             </a>
@@ -33,25 +33,15 @@ function Footer() {
       <div className="second-color">
         <Carousel>
           <div className="slide-one">
-            <h1 className="slide-css">win big party
-            <i style={{color:"white",fontSize:"20px"}} className="bi-lightning-charge"/>
-            <i style={{color:"orange",fontSize:"20px"}} className="bi-fire"/>
-
-            </h1>
-            
-            <h4 className="sha">___Sunday Party----</h4><br/>
+          <h1 className="slide-css">come get more spcial money</h1>
+            <h4 className="sha">Grant Lanuch today!</h4><br/>
           </div>
           <div className="slide-two">
-          <h1 className="slide-css">big party
-            <i style={{color:"white",fontSize:"20px"}} className="bi-lightning-charge"/>
-
-            </h1>
-            <h4 className="sha-one">----Monday Special___</h4><br/>
+          <h1 className="slide-css">come get more spcial money</h1>
+            <h4 className="sha">SundayParty</h4><br/>
           </div>
           <div className="slide-three">
           <h1 className="slide-css">Small Party
-            <i style={{color:"white",fontSize:"20px"}} className="bi-lightning-charge"/>
-
             </h1>
             <h4 className="sha-two">Friday freedom</h4><br/>
           </div>
