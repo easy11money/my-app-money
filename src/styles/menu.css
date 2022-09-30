@@ -29,12 +29,11 @@
     display: block;
   }
   .menu-top{
-    background: #2f4e93;
+    background: #2032e3;
     height: 100px;
     text-align: center;
   }
  .menu-title{
-    padding: 20px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }

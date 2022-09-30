@@ -3,13 +3,13 @@ import "../styles/windetail.css";
 import Section from "../section/Header";
 import { tableone, tabletwo } from "../map/Winuser";
 import { Carousel } from "react-responsive-carousel";
-import Logo from "../imges/lgo.jpg"
+import Logo from "../imges/lgo.png"
 function Winner() {
     return (
         <div>
             <div className="win-title">
-            <h4>Winners</h4>
             <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
+            <h4>Winners</h4>
             </div>
            
             <p className="con-win">Contest Winners</p>

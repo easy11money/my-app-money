@@ -16,7 +16,7 @@
 .draw{
     color: whitesmoke;
     text-align: center;
-    background: #2266ff;
+    background:linear-gradient(rgb(10, 10, 184),blue);
     padding: 10px;
 }
 .stepone{
@@ -38,10 +38,12 @@
     font-weight: 900;
     font-size: 16px;
     justify-content: center;
+    align-items: center;
 
 }
 .colr{
     color:red;
+    font-size: 22px;
     
 }
 .fant{

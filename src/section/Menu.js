@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/menu.css";
 import { useNavigate, Link } from "react-router-dom"
+import Logo from "../imges/lgo.png"
+
 
 
 
@@ -28,7 +30,11 @@ function Menu({ setMenu }) {
       <div className="create-ad">
         <div className="menu-top">
           <div className="divflex">
+            <div>
+            <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
+
             <p className="menu-title">easy11money</p>
+            </div>
             <i style={{ color: "white", fontSize: "29px" }} className="bi-moon-stars-fill"></i>
           </div>
 

@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Menu from "../section/Menu";
 import Homerend from "../section/Homecomp";
 import Section from "../section/Header";
-import Logo from "../imges/lgo.jpg"
+import Logo from "../imges/lgo.png"
 function Footer() {
   const [menu, setMenu] = useState(false)
   return (
