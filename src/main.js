@@ -14,6 +14,7 @@ import Term from "./menupage/Terms"
 import Play from "./menupage/Howplay"
 import Amount from "./menupage/withdraw"
 import Winer from "./pages/Winner";
+import Walet from "./menupage/Wallet";
 
 function Main(){
 
@@ -35,6 +36,7 @@ function Main(){
                  <Route path="/Play" element={<Play/>}/>
                  <Route path="/Amount" element={<Amount/>}/>
                  <Route path="/Winner" element={<Winer/>}/>
+                 <Route path="/Wallet" element={<Walet/>}/>
                
              </Routes>
              </BrowserRouter>

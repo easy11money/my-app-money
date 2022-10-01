@@ -4,40 +4,37 @@ const leaddata = [
         name:"vijay",
         number:"912XXXX987",
         rank:"-",
-        won:"",
-        send:"withdraw"
-        
+        won:"won ₹2",
     },
     {
-        id:"2",
-        name:"surya",
-        won:"",
+        id:"1",
+        name:"vijay",
+        number:"912XXXX987",
         rank:"-",
-        send:""
+        won:"won ₹3",
+    },
+    {
+        id:"1",
+        name:"vijay",
+        number:"912XXXX987",
+        rank:"-",
+        won:"won ₹4",
+    },
+    {
+        id:"1",
+        name:"vijay",
+        number:"912XXXX987",
+        rank:"-",
+        won:"won ₹5",
+    },
+    {
+        id:"1",
+        name:"vi",
+        number:"912XXXX987",
+        rank:"-",
+        won:"won ₹6",
+    },
    
-    },
-    {
-        id:"3",
-        name:"rock",
-        won:"",
-        rank:"-",
-        send:""
-
-    },
-    {
-        id:"4",
-        name:"mani",
-        won:"",
-        rank:"-",
-        send:""
-    },
-    {
-        id:"5",
-        name:"palani",
-        won:"",
-        rank:"-",
-        send:""
-    },
 
    
 ]

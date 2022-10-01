@@ -1,0 +1,20 @@
+.wallet-title{
+    color: white;
+}
+.sing-logo{
+    width: 35px;
+    height: 35px;
+}
+.table-flex{
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+.wallet-btn{
+    border: none;
+    outline: none;
+    background:linear-gradient(to right,green,green);
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+}

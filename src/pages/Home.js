@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/home.css";
+import {Link} from "react-router-dom"
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Menu from "../section/Menu";
@@ -19,12 +20,12 @@ function Footer() {
               <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
               <h3 className="top-title">easy11money</h3>
             </div>
-            <a className="under" href="https://t.me/+c-zQHDKvY283ZGFl">
-              <div className="jointeam">
-                <i style={{ color: "#2266ff", fontSize: "13px" }} class="bi-telegram" />
-                <button className="team">Join</button>
-              </div>
-            </a>
+            <Link to="/wallet" className="under">
+              {/* <div className="jointeam"> */}
+                <i style={{ color: "white", fontSize: "19px" }} class="bi-wallet-fill" />
+                {/* <button className="team">Wallet</button> */}
+              {/* </div> */}
+            </Link>
           </div>
 
         </div>
