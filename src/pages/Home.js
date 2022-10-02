@@ -7,6 +7,7 @@ import Menu from "../section/Menu";
 import Homerend from "../section/Homecomp";
 import Section from "../section/Header";
 import Logo from "../imges/lgo.png"
+
 function Footer() {
   const [menu, setMenu] = useState(false)
   return (
@@ -15,7 +16,7 @@ function Footer() {
         <div className="top-navbar">
 
           <div className="me">
-            <i style={{ color: "white", fontSize: "30px" }} className="menu" class="bi-list" onClick={() => setMenu(true)} alt="menu" />
+            <i style={{ color: "white", fontSize: "19px" }} className="menu" class="bi-list" onClick={() => setMenu(true)} alt="menu" />
             <div className="trophy">
               <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
               <h3 className="top-title">easy11money</h3>
@@ -34,8 +35,8 @@ function Footer() {
       <div className="second-color">
         <Carousel>
           <div className="slide-one">
-          <h1 className="slide-css">come get more spcial money</h1>
-            <h4 className="sha">Grant Lanuch today!</h4><br/>
+          {/* <h1 className="slide-css">come get more spcial money</h1> */}
+            <h4 className="sha">Grant Lauch today!</h4><br/>
           </div>
           <div className="slide-two">
           <h1 className="slide-css">come get more spcial money</h1>

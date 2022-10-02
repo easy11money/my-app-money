@@ -33,7 +33,7 @@ function Menu({ setMenu }) {
             <div>
             <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
 
-            <p className="menu-title">easy11money</p>
+            <Link to="/drawuser" className="menu-title">easy11money</Link>
             </div>
             <i style={{ color: "white", fontSize: "29px" }} className="bi-moon-stars-fill"></i>
           </div>
@@ -47,7 +47,7 @@ function Menu({ setMenu }) {
             </div>
             <Link to="/amount" className="offical">
               <i style={{ fontSize: "20px" }} className="bi-coin" />
-              <p>Withdraw amount</p>
+              <p>How to Withdraw</p>
             </Link>
           </a>
           <Link to="/play" className="offical">
@@ -70,10 +70,10 @@ function Menu({ setMenu }) {
               <p>Help &amp; Contact Us</p>
             </div>
           </a>
-          <div className="offical">
+          <Link to="/loginuser" className="offical">
             <i style={{ fontSize: "20px" }} className="bi-share" />
             <p>Invite Friends</p>
-          </div>
+          </Link>
           <div onClick={handleLogout} className="offical">
             <i style={{ fontSize: "20px" }} className="bi-box-arrow-left" />
             <p>Logout</p>

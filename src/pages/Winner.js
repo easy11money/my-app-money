@@ -3,13 +3,20 @@ import "../styles/windetail.css";
 import Section from "../section/Header";
 import { tableone, tabletwo } from "../map/Winuser";
 import { Carousel } from "react-responsive-carousel";
-import Logo from "../imges/lgo.png"
+import Logo from "../imges/lgo.png";
+
 function Winner() {
     return (
         <div>
             <div className="win-title">
+            <div className="flex-wallet">
             <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
             <h4>Winners</h4>
+            </div>
+            <div className='help-flex'>
+                    <i style={{color:"white"}} className='bi-youtube'/>
+                    <p>Join</p>
+                    </div>
             </div>
            
             <p className="con-win">Contest Winners</p>
@@ -69,7 +76,7 @@ function Winner() {
 
                             </div>
                         </Carousel>
-                    ) : (<div className="before">Match not yet Start it.  (:!</div>)}
+                    ) : (<div className="before">Match not yet Start it (:!</div>)}
                 </div>
                 
                 

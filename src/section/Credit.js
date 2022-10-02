@@ -4,14 +4,14 @@ import Alert from "@mui/material/Alert";
 import { withdraw } from "../section/Cre"
 
 function Withdraw({ deposit }) {
-  const [map, setMap] = useState([])
+  const [firedata, setFiredata] = useState([])
   const [amount, setAmount] = useState({
     name: "",
     rank: "",
     number: "",
     price: ""
   })
-console.log(map)
+console.log(firedata.withdrawdata)
   function handleWithdraw(e) {
     const { name, value } = e.target
     setAmount({
@@ -44,8 +44,8 @@ console.log(map)
 
   useEffect(() => {
     withdraw.collection("withdrawdata").onSnapshot(shot => {
-      setMap(shot.docs.map(doc => ({
-        id: doc.id,
+      setFiredata(shot.docs.map(doc => ({
+        // id: doc.id,
         withdrawdata: doc.data().withdrawdata
       })))
     })
@@ -56,11 +56,7 @@ console.log(map)
 
   return (
     <div>
-      {/* {map.map((item,index) =>(
-      <div>
-        <h1>{item.withdrawdata.name}</h1>
-        </div>
-     ))} */}
+     
       <div className="deposit">
         <div className="withdrawform">
           {/* <h4>Withdraw</h4> */}
@@ -106,8 +102,6 @@ console.log(map)
             <button className="with-btn">withdarw</button>
           </form>
         </div>
-
-
       </div>
       <div onClick={() => deposit(false)} className="overlay"></div>
     </div>

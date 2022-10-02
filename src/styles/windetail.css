@@ -5,6 +5,7 @@
     color: white;
     display: flex;
     gap:10px;
+    justify-content: space-between;
 }
 .con-win{
     font-size: 18px;

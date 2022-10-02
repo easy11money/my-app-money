@@ -61,7 +61,7 @@
 }
 
 .slide-one {
-    background: linear-gradient(to right, rgb(63, 21, 21), rgb(221, 206, 206));
+    background: linear-gradient(to right, rgb(230, 43, 43),orange);
     height: 45px;
     margin: 10px;
     border-radius: 10px;
@@ -88,8 +88,7 @@
     100%  {color:blue; right:10px; top:0px;}
 }
 .sha{
-    text-shadow:2px 2px white;
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 10px;
     /* text-transform: uppercase; */

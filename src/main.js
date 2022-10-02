@@ -15,7 +15,8 @@ import Play from "./menupage/Howplay"
 import Amount from "./menupage/withdraw"
 import Winer from "./pages/Winner";
 import Walet from "./menupage/Wallet";
-
+import User from "./Userinfo/Withdrawuser"
+import Loginuser from "./Userinfo/Loginuser"
 function Main(){
 
     return(
@@ -37,6 +38,8 @@ function Main(){
                  <Route path="/Amount" element={<Amount/>}/>
                  <Route path="/Winner" element={<Winer/>}/>
                  <Route path="/Wallet" element={<Walet/>}/>
+                 <Route path="/Drawuser" element={<User/>}/>
+                 <Route path="/Loginuser" element={<Loginuser/>}/>
                
              </Routes>
              </BrowserRouter>

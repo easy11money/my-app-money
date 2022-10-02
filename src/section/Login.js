@@ -81,8 +81,8 @@ return (
               required
               type="number"
               placeholder="Phonenumber"
-
               name="number"
+              maxLength={5}
               value={user.number}
               onChange={handleChange}
             />

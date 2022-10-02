@@ -37,7 +37,7 @@
     padding: 20px 5px 20px 10px;
     font-weight: 900;
     font-size: 16px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -107,4 +107,9 @@
 .video-play{
     text-align: center;
     padding-top:40px;
+}
+.easy-play{
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
 }

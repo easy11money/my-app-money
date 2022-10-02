@@ -12,9 +12,14 @@ function Play() {
    return (
       <div className="howplay">
          <div className="plystart draw">
-            <p>It's easy to start playing</p>
-            <p className="colr">on easy11money</p>
+           <h4>How to Play</h4>
+           <div className='help-flex'>
+                    <i style={{color:"white"}} className='bi-youtube'/>
+                    <p>Join</p>
+                   
+            </div>
          </div>
+         <h4 className="easy-play">It's easy to start playing on Easy11Money</h4>
          <Alert>Play Fantasy on Easy 11 Money and win big</Alert>
          <div className="how-play">
             <div className="gauid">
