@@ -29,19 +29,24 @@ function Sunday() {
             </div>
             <p className="only">Only one contest make win 99% chance</p>
             <p className="sun-contest">Contest</p>
-            <div className="contest-des">
-                {sunday.map((item, index) => (
+            {sunday.map((item, index) => (
+
+                <div className="contest-des">
+                
                     <Link to="/leader" key={index} className="contest-card">
                         <div className="contest-top">
-                            <p>Price Pool</p>
 
-                            <li className="live">{item.live}</li>
 
-                            <p>Entry</p>
+                            <p>Enter Pay</p>
+                            <p> Total Pool</p>
+
                         </div>
                         <div className="contest-prize">
-                            <p className="pool">{item.totalprice}</p>
                             <p className="pay">{item.pay}</p>
+                            <li className="live">{item.live}</li>
+
+                            <p className="pool">{item.totalprice}</p>
+
                         </div>
                         <progress className="player-progress" value={item.value} max={100}></progress>
                         <div className="players">
@@ -50,23 +55,25 @@ function Sunday() {
 
                         </div>
                         <div className="contest-bottom">
-                            <div className="first-price">
-                                <p className="sunprice">{item.firstprice}</p>
-                                <div className="percen-flex">
-                                <i className="bi-trophy" />
-                                <p>{item.percentage}</p>
-                                </div>
-                            </div>
+
                             <div className="mark">
                                 <i class="bi-check-circle-fill" style={{ color: "green" }} role="img" aria-label="GitHub"></i>
 
                                 <p>Garanteed</p>
                             </div>
+                            <div className="first-price">
+                                <p className="sunprice">(1<sub>st</sub>) {item.firstprice}</p>
+                                {/* <div className="percen-flex">
+                                <i className="bi-trophy-fill" />
+                                <p className="win-percen">{item.percentage}</p>
+                                </div> */}
+                            </div>
                         </div>
                     </Link>
-             ))}
-            </div>
-         <Section/>
+
+                </div>
+            ))}
+            <Section />
 
         </div>
 

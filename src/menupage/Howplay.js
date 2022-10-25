@@ -16,7 +16,6 @@ function Play() {
            <div className='help-flex'>
                     <i style={{color:"white"}} className='bi-youtube'/>
                     <p>Join</p>
-                   
             </div>
          </div>
          <h4 className="easy-play">It's easy to start playing on Easy11Money</h4>

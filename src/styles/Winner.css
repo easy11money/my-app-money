@@ -4,7 +4,7 @@
 
 
 .contest {
-    background: black;
+    background: #2032e3;
     color: white;
     padding-top: 10px;
 }
@@ -57,7 +57,7 @@
 
 .contest-des {
     box-shadow: 0px 0px 9px #c7bbbb;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     margin: 15px 10px 15px 10px;
     border-radius: 5px;
 }
@@ -120,7 +120,7 @@ progress {
 }
 
 progress::-webkit-progress-value {
-    background: linear-gradient(to right, orange, rgb(240, 36, 36));
+    background: linear-gradient(to right, rgb(81, 81, 196), blue);
     border-radius: 10px;
 
 
@@ -136,7 +136,7 @@ progress::-webkit-progress-value {
 }
 
 .total-player {
-    color: red;
+    color:blue;
 }
 
 .contest-bottom {
@@ -252,4 +252,11 @@ progress::-webkit-progress-value {
 .percen-flex{
     display: flex;
     gap: 5px;
+}
+.win-percen{
+    font-weight: 900;
+    color: black;
+}
+.split{
+    display: inline-flex;
 }

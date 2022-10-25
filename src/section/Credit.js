@@ -7,7 +7,6 @@ function Withdraw({ deposit }) {
   const [firedata, setFiredata] = useState([])
   const [amount, setAmount] = useState({
     name: "",
-    rank: "",
     number: "",
     price: ""
   })
@@ -38,7 +37,7 @@ console.log(firedata.withdrawdata)
       .catch((error) => {
         alert(error.message)
       });
-    setAmount({ name: "", rank: "", number: "", price: "" })
+    setAmount({ name: "", number: "", price: "" })
 
   }
 
@@ -66,7 +65,7 @@ console.log(firedata.withdrawdata)
             <input className="rank-data"
               required
               type="text"
-              placeholder="name"
+              placeholder="Login Name"
               name="name"
               value={amount.name}
               onChange={handleWithdraw}
@@ -74,18 +73,8 @@ console.log(firedata.withdrawdata)
             /><br />
             <input className="rank-data"
               required
-
               type="number"
-              placeholder="Enter your Rank"
-              name="rank"
-              value={amount.rank}
-              onChange={handleWithdraw}
-            /><br />
-            <input className="rank-data"
-              required
-
-              type="number"
-              placeholder="Same number"
+              placeholder="Login Number"
               name="number"
               value={amount.number}
               onChange={handleWithdraw}
@@ -93,8 +82,7 @@ console.log(firedata.withdrawdata)
             <input className="rank-data"
               type="number"
               required
-
-              placeholder="Price Amount"
+              placeholder="Withdraw Amount"
               name="price"
               value={amount.price}
               onChange={handleWithdraw}

@@ -112,16 +112,16 @@ const registration = [
 
 const sunday = [
   {
-    totalprice: "₹0Lakhs",
-    pay: "₹0",
-    spots: "0 spots left",
-    left: "0 spots",
-    value: 0,
-    firstprice: "(1st) 0lakhs",
-    percentage: "0%",
+    totalprice: "₹ 0 Lakhs",
+    pay: "₹10",
+    spots: "0 seats left",
+    left: "0 seats",
+    value: 40,
+    firstprice: "₹ 500 five hundered",
+    percentage: "79%",
     live: "Upcomeing"
+},
 
-  },
 
 
 

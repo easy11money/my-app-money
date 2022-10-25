@@ -33,7 +33,7 @@ function Menu({ setMenu }) {
             <div>
             <img style={{width:"35px",height:"35px"}} src={Logo} alt="logo"/>
 
-            <Link to="/drawuser" className="menu-title">easy11money</Link>
+            <h3 to="/drawuser" className="menu-title">easy11money</h3>
             </div>
             <i style={{ color: "white", fontSize: "29px" }} className="bi-moon-stars-fill"></i>
           </div>
@@ -70,10 +70,10 @@ function Menu({ setMenu }) {
               <p>Help &amp; Contact Us</p>
             </div>
           </a>
-          <Link to="/loginuser" className="offical">
+          <p to="/loginuser" className="offical">
             <i style={{ fontSize: "20px" }} className="bi-share" />
             <p>Invite Friends</p>
-          </Link>
+          </p>
           <div onClick={handleLogout} className="offical">
             <i style={{ fontSize: "20px" }} className="bi-box-arrow-left" />
             <p>Logout</p>

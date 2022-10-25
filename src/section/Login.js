@@ -43,7 +43,7 @@ function Login() {
       })
 
       .then(() => {
-       alert("login fully")
+       alert("Login Successfullys")
       })
       .catch((error) => {
         alert(error.message)
@@ -82,7 +82,6 @@ return (
               type="number"
               placeholder="Phonenumber"
               name="number"
-              maxLength={5}
               value={user.number}
               onChange={handleChange}
             />

@@ -35,12 +35,18 @@ function Footer() {
       <div className="second-color">
         <Carousel>
           <div className="slide-one">
-          {/* <h1 className="slide-css">come get more spcial money</h1> */}
-            <h4 className="sha">Grant Lauch today!</h4><br/>
+            <div className="gift">
+            <h4 className="sha">Grand Launch today!</h4>
+            <i style={{color:"white",paddingTop:"10px",fontSize:"30px"}} className="bi-moon-stars-fill"/>
+
+            </div>
           </div>
           <div className="slide-two">
-          <h1 className="slide-css">come get more spcial money</h1>
-            <h4 className="sha">SundayParty</h4><br/>
+          <div className="gift">
+            <h4 className="sha-one">Welcome</h4>
+            {/* <i style={{color:"white",paddingTop:"10px",fontSize:"30px"}} className="bi-moon-stars-fill"/> */}
+
+            </div>
           </div>
           <div className="slide-three">
           <h1 className="slide-css">Small Party
