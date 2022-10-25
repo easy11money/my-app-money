@@ -11,7 +11,7 @@ function Homerender(){
             <div key={index} className="card-one">
                 <div  className="one-top">
                 <div>
-                <i className="bi-calendar-check-fill" style={{color:"black",paddingBottom:"5px"}}/>
+                <i className="bi-calendar-check-fill" style={{color:"white",paddingBottom:"5px"}}/>
                 <span className="date">{item.date}</span>
                  </div>   
                     <div className="alarm">
